@@ -45,7 +45,6 @@ Preparamos el entorno de ejecución para desempeñar la tarea.
 		
 ```
 
-Copied
 
 ### Cargando un Archivo PDF con Langchain
 
@@ -60,7 +59,6 @@ print(pages)
 		
 ```
 
-Copied
 
 ### Unir el Contenido de un Archivo PDF en un Solo Texto
 
@@ -77,7 +75,6 @@ print(textoSalida)
 		
 ```
 
-Copied
 
 ### Dividir un Texto en Pedazos Más Pequeños
 
@@ -97,7 +94,6 @@ print(texts)
 		
 ```
 
-Copied
 
 ## ETAPA 2: Configuración del Modelo de Lenguaje
 
@@ -117,7 +113,6 @@ embeddings = embeddingSetup('sentence-transformers/paraphrase-multilingual-MiniL
 		
 ```
 
-Copied
 
 ### Crear un Almacenamiento de Vectores para Búsqueda de Texto
 
@@ -135,7 +130,6 @@ knowledge_base = vectorStoreCreation(texts, embeddings)
 		
 ```
 
-Copied
 
 ## ETAPA 3: Configuración de la Conexión con OpenAI
 
